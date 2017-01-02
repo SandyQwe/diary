@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Code="http:///schemas/Code/_xMm5IMnvEeapc4-KGmx_Tw/0" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_xMiAoMnvEeapc4-KGmx_Tw/0" xmlns:PersistentProfile="http:///schemas/PersistentProfile/_xMMpcMnvEeapc4-KGmx_Tw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/Code/_xMm5IMnvEeapc4-KGmx_Tw/0 Code.profile.uml#_xRWPN8nvEeapc4-KGmx_Tw http:///schemas/JavaExtensions/_xMiAoMnvEeapc4-KGmx_Tw/0 JavaExtensions.profile.uml#_xP7S58nvEeapc4-KGmx_Tw http:///schemas/PersistentProfile/_xMMpcMnvEeapc4-KGmx_Tw/0 PersistentProfile.profile.uml#_xNlJh8nvEeapc4-KGmx_Tw">
+  <uml:Model xmi:id="_xLs6MMnvEeapc4-KGmx_Tw" name="DataModel">
+    <eAnnotations xmi:id="_xLs6McnvEeapc4-KGmx_Tw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_xLs6MsnvEeapc4-KGmx_Tw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6M8nvEeapc4-KGmx_Tw" value="3.0.0"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_xLs6NMnvEeapc4-KGmx_Tw" name="isRoundTrip"/>
+      <contents xmi:type="uml:Property" xmi:id="_xLs6NcnvEeapc4-KGmx_Tw" name="Visibility">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6NsnvEeapc4-KGmx_Tw" value="0"/>
+      </contents>
+    </eAnnotations>
+    <ownedRule xmi:id="_xLs6N8nvEeapc4-KGmx_Tw" name="NOT NULL" constrainedElement="_xLs6esnvEeapc4-KGmx_Tw">
+      <specification xmi:type="uml:LiteralString" xmi:id="_xLs6OMnvEeapc4-KGmx_Tw" value=""/>
+    </ownedRule>
+    <ownedRule xmi:id="_xLs6OcnvEeapc4-KGmx_Tw" constrainedElement="_xLs6hMnvEeapc4-KGmx_Tw">
+      <specification xmi:type="uml:LiteralString" xmi:id="_xLs6OsnvEeapc4-KGmx_Tw" value=""/>
+    </ownedRule>
+    <ownedRule xmi:id="_xLs6O8nvEeapc4-KGmx_Tw" name="NOT NULL" constrainedElement="_xLs6j8nvEeapc4-KGmx_Tw">
+      <specification xmi:type="uml:LiteralString" xmi:id="_xLs6PMnvEeapc4-KGmx_Tw" value=""/>
+    </ownedRule>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLs6PcnvEeapc4-KGmx_Tw" name="Diary note" isLeaf="true">
+      <eAnnotations xmi:id="_xLs6PsnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLs6P8nvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6QMnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLs6QcnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6QsnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6Q8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6RMnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;p>Запись в дневнике&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLs6RcnvEeapc4-KGmx_Tw" name="text" visibility="public" type="_xLs6u8nvEeapc4-KGmx_Tw" association="_xLs6tcnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6RsnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6R8nvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6SMnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6ScnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6SsnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6S8nvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6TMnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6TcnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6TsnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;p>Diary note may contain text&lt;/p>
+</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6T8nvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6UMnvEeapc4-KGmx_Tw" name="photo" visibility="public" type="_xLthRcnvEeapc4-KGmx_Tw" association="_xLs6tsnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6UcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6UsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6U8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6VMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6VcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6VsnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6V8nvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6WMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6WcnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body></body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLs6WsnvEeapc4-KGmx_Tw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6W8nvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6XMnvEeapc4-KGmx_Tw" name="video" visibility="public" type="_xLthYMnvEeapc4-KGmx_Tw" association="_xLs6t8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6XcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6XsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6X8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6YMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6YcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6YsnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6Y8nvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6ZMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6ZcnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;p>Заметка может содержать одну или несколько видеозаписей&lt;/p>
+</body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLs6ZsnvEeapc4-KGmx_Tw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6Z8nvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6aMnvEeapc4-KGmx_Tw" name="link" visibility="public" type="_xLthd8nvEeapc4-KGmx_Tw" association="_xLs6uMnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6acnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6asnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6a8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6bMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6bcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6bsnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6b8nvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6cMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6ccnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;p>Заметка может содержать гиперссылки&lt;/p>
+</body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLs6csnvEeapc4-KGmx_Tw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6c8nvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6dMnvEeapc4-KGmx_Tw" name="Diary_note_ID" visibility="private">
+        <eAnnotations xmi:id="_xLs6dcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6dsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6d8nvEeapc4-KGmx_Tw" value="2"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6eMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6ecnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6esnvEeapc4-KGmx_Tw" name="Date" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_xLs6e8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6fMnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6fcnvEeapc4-KGmx_Tw" value="2"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6fsnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6f8nvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6gMnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6gcnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6gsnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6g8nvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>Дата записи (можно делать записи за прошлые даты или на будущие)</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6hMnvEeapc4-KGmx_Tw" name="Time" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_xLs6hcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6hsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6h8nvEeapc4-KGmx_Tw" value="2"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6iMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6icnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6isnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6i8nvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6jMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6jcnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>Время записи (может не быть).&#xD;
+</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6jsnvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6j8nvEeapc4-KGmx_Tw" name="TimeStamp" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_xLs6kMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6kcnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6ksnvEeapc4-KGmx_Tw" value="2"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6k8nvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6lMnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6lcnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6lsnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6l8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6mMnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;p>Время создания записи в программе (берётся с системного времени)&lt;/p>
+</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_xLs6mcnvEeapc4-KGmx_Tw" name="getIdentifier" visibility="package" clientDependency="_xLs6ucnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6msnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6m8nvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6nMnvEeapc4-KGmx_Tw" value="4"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6ncnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6nsnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6n8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6oMnvEeapc4-KGmx_Tw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:id="_xLs6ocnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6osnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6o8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6pMnvEeapc4-KGmx_Tw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.Identifier;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_xLs6pcnvEeapc4-KGmx_Tw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLs6psnvEeapc4-KGmx_Tw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6p8nvEeapc4-KGmx_Tw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6qMnvEeapc4-KGmx_Tw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xLs6qcnvEeapc4-KGmx_Tw" name="setIdentifier" visibility="package" clientDependency="_xLs6usnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6qsnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6q8nvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6rMnvEeapc4-KGmx_Tw" value="4"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLs6rcnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLs6rsnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLs6r8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6sMnvEeapc4-KGmx_Tw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#xD;
+this.Identifier = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_xLs6scnvEeapc4-KGmx_Tw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLs6ssnvEeapc4-KGmx_Tw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLs6s8nvEeapc4-KGmx_Tw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6tMnvEeapc4-KGmx_Tw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLs6tcnvEeapc4-KGmx_Tw" name="Contains" memberEnd="_xLs6RcnvEeapc4-KGmx_Tw _xLs6w8nvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLs6tsnvEeapc4-KGmx_Tw" name="Contains" memberEnd="_xLs6UMnvEeapc4-KGmx_Tw _xLthTcnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLs6t8nvEeapc4-KGmx_Tw" name="Contains" memberEnd="_xLs6XMnvEeapc4-KGmx_Tw _xLthaMnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLs6uMnvEeapc4-KGmx_Tw" name="Contains" memberEnd="_xLs6aMnvEeapc4-KGmx_Tw _xLthf8nvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xLs6ucnvEeapc4-KGmx_Tw" name="" supplier="_xLs6dMnvEeapc4-KGmx_Tw" client="_xLs6mcnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xLs6usnvEeapc4-KGmx_Tw" name="" supplier="_xLs6dMnvEeapc4-KGmx_Tw" client="_xLs6qcnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLs6u8nvEeapc4-KGmx_Tw" name="Text" isLeaf="true">
+      <eAnnotations xmi:id="_xLs6vMnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLs6vcnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6vsnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLs6v8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6wMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6wcnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6wsnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;p>Текст, сожержащийся в заметке&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLs6w8nvEeapc4-KGmx_Tw" name="diary note" visibility="public" type="_xLs6PcnvEeapc4-KGmx_Tw" aggregation="shared" association="_xLs6tcnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLs6xMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLs6xcnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6xsnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLs6x8nvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLs6yMnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLs6ycnvEeapc4-KGmx_Tw" name="Text_ID" visibility="public">
+        <eAnnotations xmi:id="_xLthQMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthQcnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthQsnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthQ8nvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthRMnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthRcnvEeapc4-KGmx_Tw" name="Photo" isLeaf="true">
+      <eAnnotations xmi:id="_xLthRsnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthR8nvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthSMnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthScnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthSsnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthS8nvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthTMnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;p>Фотографии, содеержащиеся в заметке (ссылка на фотографию, представляющая собой относительный путь в каталоге программы)&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthTcnvEeapc4-KGmx_Tw" name="diary note" visibility="public" type="_xLs6PcnvEeapc4-KGmx_Tw" aggregation="shared" association="_xLs6tsnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthTsnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthT8nvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthUMnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthUcnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthUsnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLthU8nvEeapc4-KGmx_Tw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLthVMnvEeapc4-KGmx_Tw" name="photo_description" visibility="public" type="_xLthksnvEeapc4-KGmx_Tw" association="_xLthX8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthVcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthVsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthV8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthWMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthWcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLthWsnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLthW8nvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLthXMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthXcnvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLthXsnvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLthX8nvEeapc4-KGmx_Tw" name="Relationship" memberEnd="_xLthVMnvEeapc4-KGmx_Tw _xLthmsnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthYMnvEeapc4-KGmx_Tw" name="Video" isLeaf="true">
+      <eAnnotations xmi:id="_xLthYcnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthYsnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthY8nvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthZMnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthZcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthZsnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthZ8nvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>Видеозаписи, содержащиеся в заметке (представляет собой ссылку на видеофайл, который нахродится либо в каталоге данных программы, либо в интернете - YouTube или подобное)</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthaMnvEeapc4-KGmx_Tw" name="diary note" visibility="public" type="_xLs6PcnvEeapc4-KGmx_Tw" aggregation="shared" association="_xLs6t8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthacnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthasnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLtha8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthbMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthbcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLthbsnvEeapc4-KGmx_Tw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLthb8nvEeapc4-KGmx_Tw" name="video_description" visibility="public" type="_xLthoMnvEeapc4-KGmx_Tw" association="_xLthdsnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthcMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthccnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthcsnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthc8nvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthdMnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLthdcnvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLthdsnvEeapc4-KGmx_Tw" name="Relationship" memberEnd="_xLthb8nvEeapc4-KGmx_Tw _xLthqMnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthd8nvEeapc4-KGmx_Tw" name="Link" isLeaf="true">
+      <eAnnotations xmi:id="_xLtheMnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthecnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthesnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthe8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthfMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthfcnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthfsnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;p>Гиперссылка на страницу в Интернетеь (например, ссылка на магазин семян, или на страницу в Википедии с описанием растения или погодного явления)&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthf8nvEeapc4-KGmx_Tw" name="diary note" visibility="public" type="_xLs6PcnvEeapc4-KGmx_Tw" aggregation="shared" association="_xLs6uMnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthgMnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthgcnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthgsnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthg8nvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthhMnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLthhcnvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLthhsnvEeapc4-KGmx_Tw" name="link_description" visibility="public" type="_xLthrsnvEeapc4-KGmx_Tw" association="_xLthkcnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthh8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthiMnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthicnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthisnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthi8nvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_xLthjMnvEeapc4-KGmx_Tw">
+          <eAnnotations xmi:id="_xLthjcnvEeapc4-KGmx_Tw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_xLthjsnvEeapc4-KGmx_Tw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthj8nvEeapc4-KGmx_Tw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>Гиперссылка может содержать описание</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLthkMnvEeapc4-KGmx_Tw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xLthkcnvEeapc4-KGmx_Tw" name="Relationship" memberEnd="_xLthhsnvEeapc4-KGmx_Tw _xLthtsnvEeapc4-KGmx_Tw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthksnvEeapc4-KGmx_Tw" name="Photo_description" isLeaf="true">
+      <eAnnotations xmi:id="_xLthk8nvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthlMnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthlcnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthlsnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthl8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthmMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthmcnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>Содержит описание фотографии</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthmsnvEeapc4-KGmx_Tw" name="photo" visibility="public" type="_xLthRcnvEeapc4-KGmx_Tw" aggregation="composite" association="_xLthX8nvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthm8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthnMnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthncnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthnsnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthn8nvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthoMnvEeapc4-KGmx_Tw" name="Video_description" isLeaf="true">
+      <eAnnotations xmi:id="_xLthocnvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthosnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLtho8nvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthpMnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthpcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthpsnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthp8nvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;p>Содержит описание видеозаписи&lt;/p>
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthqMnvEeapc4-KGmx_Tw" name="video" visibility="public" type="_xLthYMnvEeapc4-KGmx_Tw" aggregation="composite" association="_xLthdsnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLthqcnvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthqsnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthq8nvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthrMnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthrcnvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xLthrsnvEeapc4-KGmx_Tw" name="Link_description" isLeaf="true">
+      <eAnnotations xmi:id="_xLthr8nvEeapc4-KGmx_Tw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_xLthsMnvEeapc4-KGmx_Tw" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthscnvEeapc4-KGmx_Tw" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_xLthssnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLths8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthtMnvEeapc4-KGmx_Tw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthtcnvEeapc4-KGmx_Tw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>Описание гиперссылки (если необходимо)</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_xLthtsnvEeapc4-KGmx_Tw" name="link" visibility="public" type="_xLthd8nvEeapc4-KGmx_Tw" aggregation="composite" association="_xLthkcnvEeapc4-KGmx_Tw">
+        <eAnnotations xmi:id="_xLtht8nvEeapc4-KGmx_Tw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_xLthuMnvEeapc4-KGmx_Tw" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthucnvEeapc4-KGmx_Tw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_xLthusnvEeapc4-KGmx_Tw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_xLthu8nvEeapc4-KGmx_Tw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:id="_xRbuwMnvEeapc4-KGmx_Tw">
+      <eAnnotations xmi:id="_xReyEMnvEeapc4-KGmx_Tw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="PersistentProfile.profile.uml#_xNlJh8nvEeapc4-KGmx_Tw"/>
+      </eAnnotations>
+      <appliedProfile href="PersistentProfile.profile.uml#_xNlJgMnvEeapc4-KGmx_Tw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_xRgnQMnvEeapc4-KGmx_Tw">
+      <eAnnotations xmi:id="_xRgnQcnvEeapc4-KGmx_Tw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.uml#_xP7S58nvEeapc4-KGmx_Tw"/>
+      </eAnnotations>
+      <appliedProfile href="JavaExtensions.profile.uml#_xP7S4MnvEeapc4-KGmx_Tw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_xRh1YMnvEeapc4-KGmx_Tw">
+      <eAnnotations xmi:id="_xRh1YcnvEeapc4-KGmx_Tw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Code.profile.uml#_xRWPN8nvEeapc4-KGmx_Tw"/>
+      </eAnnotations>
+      <appliedProfile href="Code.profile.uml#_xRWPMMnvEeapc4-KGmx_Tw"/>
+    </profileApplication>
+  </uml:Model>
+  <PersistentProfile:RootDataModel xmi:id="_xRlfwMnvEeapc4-KGmx_Tw" base_Element="_xLs6MMnvEeapc4-KGmx_Tw"/>
+  <JavaExtensions:JavaPackage xmi:id="_xRlfwcnvEeapc4-KGmx_Tw" base_Element="_xLs6MMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRmG0MnvEeapc4-KGmx_Tw" base_Element="_xLs6MMnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardPackage xmi:id="_xRmG0cnvEeapc4-KGmx_Tw" base_Element="_xLs6MMnvEeapc4-KGmx_Tw" persistentdatamodelconnectionurl="" persistentdatamodelconnectionusername="" persistentdatamodelconnectiondriver_class="" persistentdatamodeldialect="" persistentdatamodelconnectionpassword="" persistentdatamodeltransactionfactory_class="" persistentdatamodelpoolsize=""/>
+  <PersistentProfile:Entity xmi:id="_xRmt4MnvEeapc4-KGmx_Tw" base_Element="_xLs6PcnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRnU8MnvEeapc4-KGmx_Tw" base_Element="_xLs6PcnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xRnU8cnvEeapc4-KGmx_Tw" base_Element="_xLs6PcnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Diary_note_ID" persistententitytechnicalKeyType="int"/>
+  <JavaExtensions:InfrastructureModelElement xmi:id="_xRn8AMnvEeapc4-KGmx_Tw" base_Element="_xLs6PcnvEeapc4-KGmx_Tw" JavaNoCode="true"/>
+  <PersistentProfile:Role xmi:id="_xRojEMnvEeapc4-KGmx_Tw" base_Element="_xLs6RcnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRojEcnvEeapc4-KGmx_Tw" base_Element="_xLs6RcnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xRpKIMnvEeapc4-KGmx_Tw" base_Element="_xLs6RcnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xRpKIcnvEeapc4-KGmx_Tw" base_Element="_xLs6RcnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xRpxMMnvEeapc4-KGmx_Tw" base_Element="_xLs6tcnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRpxMcnvEeapc4-KGmx_Tw" base_Element="_xLs6tcnvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xRpxMsnvEeapc4-KGmx_Tw" base_Element="_xLs6tcnvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Role xmi:id="_xRpxM8nvEeapc4-KGmx_Tw" base_Element="_xLs6UMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRqYQMnvEeapc4-KGmx_Tw" base_Element="_xLs6UMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xRqYQcnvEeapc4-KGmx_Tw" base_Element="_xLs6UMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xRq_UMnvEeapc4-KGmx_Tw" base_Element="_xLs6UMnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xRq_UcnvEeapc4-KGmx_Tw" base_Element="_xLs6tsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRq_UsnvEeapc4-KGmx_Tw" base_Element="_xLs6tsnvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xRq_U8nvEeapc4-KGmx_Tw" base_Element="_xLs6tsnvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Role xmi:id="_xRrmYMnvEeapc4-KGmx_Tw" base_Element="_xLs6XMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRrmYcnvEeapc4-KGmx_Tw" base_Element="_xLs6XMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xRrmYsnvEeapc4-KGmx_Tw" base_Element="_xLs6XMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xRsNcMnvEeapc4-KGmx_Tw" base_Element="_xLs6XMnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xRsNccnvEeapc4-KGmx_Tw" base_Element="_xLs6t8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRsNcsnvEeapc4-KGmx_Tw" base_Element="_xLs6t8nvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xRsNc8nvEeapc4-KGmx_Tw" base_Element="_xLs6t8nvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Role xmi:id="_xRs0gMnvEeapc4-KGmx_Tw" base_Element="_xLs6aMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRs0gcnvEeapc4-KGmx_Tw" base_Element="_xLs6aMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xRtbkMnvEeapc4-KGmx_Tw" base_Element="_xLs6aMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xRtbkcnvEeapc4-KGmx_Tw" base_Element="_xLs6aMnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xRuCoMnvEeapc4-KGmx_Tw" base_Element="_xLs6uMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRuCocnvEeapc4-KGmx_Tw" base_Element="_xLs6uMnvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xRuCosnvEeapc4-KGmx_Tw" base_Element="_xLs6uMnvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Identifier xmi:id="_xRupsMnvEeapc4-KGmx_Tw" base_Element="_xLs6dMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:StandardAttribute xmi:id="_xRupscnvEeapc4-KGmx_Tw" base_Element="_xLs6dMnvEeapc4-KGmx_Tw" persistentidentifiergenerator="increment" persistentpropertytype="int" persistentpropertyisidentifier="true"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRupssnvEeapc4-KGmx_Tw" base_Element="_xLs6dMnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:PersistentAttribute xmi:id="_xRvQwMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:StandardAttribute xmi:id="_xRvQwcnvEeapc4-KGmx_Tw" base_Element="_xLs6esnvEeapc4-KGmx_Tw" persistentpropertygenerated="" persistentpropertytype="date" persistentpropertyisidentifier="false"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRv30MnvEeapc4-KGmx_Tw" base_Element="_xLs6esnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:SQLConstraint xmi:id="_xRv30cnvEeapc4-KGmx_Tw" base_Element="_xLs6N8nvEeapc4-KGmx_Tw" SQLConstraintisNotNull="TRUE" SQLConstraintType="Field"/>
+  <PersistentProfile:PersistentAttribute xmi:id="_xRwe4MnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:StandardAttribute xmi:id="_xRwe4cnvEeapc4-KGmx_Tw" base_Element="_xLs6hMnvEeapc4-KGmx_Tw" persistentpropertygenerated="" persistentpropertypersistentName="Property" persistentpropertytype="java.sql.Time" persistentpropertyisidentifier="false"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRwe4snvEeapc4-KGmx_Tw" base_Element="_xLs6hMnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:SQLConstraint xmi:id="_xRxF8MnvEeapc4-KGmx_Tw" base_Element="_xLs6OcnvEeapc4-KGmx_Tw" SQLConstraintisUnique="FALSE" SQLConstraintType="Field"/>
+  <PersistentProfile:PersistentAttribute xmi:id="_xRxF8cnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:StandardAttribute xmi:id="_xRxtAMnvEeapc4-KGmx_Tw" base_Element="_xLs6j8nvEeapc4-KGmx_Tw" persistentpropertygenerated="always" persistentpropertytype="java.sql.Timestamp" persistentpropertyisidentifier="false"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRxtAcnvEeapc4-KGmx_Tw" base_Element="_xLs6j8nvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:SQLConstraint xmi:id="_xRxtAsnvEeapc4-KGmx_Tw" base_Element="_xLs6O8nvEeapc4-KGmx_Tw" SQLConstraintisNotNull="TRUE" SQLConstraintType="Field"/>
+  <JavaExtensions:JavaGetter xmi:id="_xRyUEMnvEeapc4-KGmx_Tw" base_Element="_xLs6mcnvEeapc4-KGmx_Tw"/>
+  <JavaExtensions:JavaGetter xmi:id="_xRyUEcnvEeapc4-KGmx_Tw" base_Element="_xLs6ucnvEeapc4-KGmx_Tw"/>
+  <JavaExtensions:JavaSetter xmi:id="_xRyUEsnvEeapc4-KGmx_Tw" base_Element="_xLs6qcnvEeapc4-KGmx_Tw"/>
+  <JavaExtensions:JavaSetter xmi:id="_xRyUE8nvEeapc4-KGmx_Tw" base_Element="_xLs6usnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:Entity xmi:id="_xRyUFMnvEeapc4-KGmx_Tw" base_Element="_xLs6u8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRyUFcnvEeapc4-KGmx_Tw" base_Element="_xLs6u8nvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xRy7IMnvEeapc4-KGmx_Tw" base_Element="_xLs6u8nvEeapc4-KGmx_Tw" persistententitypersistentName="Text" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Text_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xRziMMnvEeapc4-KGmx_Tw" base_Element="_xLs6w8nvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xRziMcnvEeapc4-KGmx_Tw" base_Element="_xLs6w8nvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Identifier xmi:id="_xR0JQMnvEeapc4-KGmx_Tw" base_Element="_xLs6ycnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:StandardAttribute xmi:id="_xR0JQcnvEeapc4-KGmx_Tw" base_Element="_xLs6ycnvEeapc4-KGmx_Tw" persistentidentifiergenerator="increment" persistentpropertytype="int" persistentpropertyisidentifier="true"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR0JQsnvEeapc4-KGmx_Tw" base_Element="_xLs6ycnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:Entity xmi:id="_xR0wUMnvEeapc4-KGmx_Tw" base_Element="_xLthRcnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR0wUcnvEeapc4-KGmx_Tw" base_Element="_xLthRcnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR0wUsnvEeapc4-KGmx_Tw" base_Element="_xLthRcnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Photo_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR1XYMnvEeapc4-KGmx_Tw" base_Element="_xLthTcnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR1XYcnvEeapc4-KGmx_Tw" base_Element="_xLthTcnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Role xmi:id="_xR1-cMnvEeapc4-KGmx_Tw" base_Element="_xLthVMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR1-ccnvEeapc4-KGmx_Tw" base_Element="_xLthVMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR1-csnvEeapc4-KGmx_Tw" base_Element="_xLthVMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xR2lgMnvEeapc4-KGmx_Tw" base_Element="_xLthVMnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xR2lgcnvEeapc4-KGmx_Tw" base_Element="_xLthX8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR2lgsnvEeapc4-KGmx_Tw" base_Element="_xLthX8nvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xR2lg8nvEeapc4-KGmx_Tw" base_Element="_xLthX8nvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Entity xmi:id="_xR3MkMnvEeapc4-KGmx_Tw" base_Element="_xLthYMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR3MkcnvEeapc4-KGmx_Tw" base_Element="_xLthYMnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR3MksnvEeapc4-KGmx_Tw" base_Element="_xLthYMnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Video_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:Role xmi:id="_xR3zoMnvEeapc4-KGmx_Tw" base_Element="_xLthaMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR3zocnvEeapc4-KGmx_Tw" base_Element="_xLthaMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR3zosnvEeapc4-KGmx_Tw" base_Element="_xLthaMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Role xmi:id="_xR4asMnvEeapc4-KGmx_Tw" base_Element="_xLthb8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR4ascnvEeapc4-KGmx_Tw" base_Element="_xLthb8nvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR5BwMnvEeapc4-KGmx_Tw" base_Element="_xLthb8nvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xR5BwcnvEeapc4-KGmx_Tw" base_Element="_xLthb8nvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xR5BwsnvEeapc4-KGmx_Tw" base_Element="_xLthdsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR5o0MnvEeapc4-KGmx_Tw" base_Element="_xLthdsnvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xR5o0cnvEeapc4-KGmx_Tw" base_Element="_xLthdsnvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Entity xmi:id="_xR5o0snvEeapc4-KGmx_Tw" base_Element="_xLthd8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR5o08nvEeapc4-KGmx_Tw" base_Element="_xLthd8nvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR6P4MnvEeapc4-KGmx_Tw" base_Element="_xLthd8nvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Link_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:Role xmi:id="_xR6P4cnvEeapc4-KGmx_Tw" base_Element="_xLthf8nvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR6P4snvEeapc4-KGmx_Tw" base_Element="_xLthf8nvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR628MnvEeapc4-KGmx_Tw" base_Element="_xLthf8nvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Role xmi:id="_xR7eAMnvEeapc4-KGmx_Tw" base_Element="_xLthhsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR7eAcnvEeapc4-KGmx_Tw" base_Element="_xLthhsnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR7eAsnvEeapc4-KGmx_Tw" base_Element="_xLthhsnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="true"/>
+  <Code:StandardAssociationEnd xmi:id="_xR7eA8nvEeapc4-KGmx_Tw" base_Element="_xLthhsnvEeapc4-KGmx_Tw">
+    <type>Set</type>
+  </Code:StandardAssociationEnd>
+  <PersistentProfile:Relationship xmi:id="_xR8FEMnvEeapc4-KGmx_Tw" base_Element="_xLthkcnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR8FEcnvEeapc4-KGmx_Tw" base_Element="_xLthkcnvEeapc4-KGmx_Tw" persistentpropertymode="[Association]"/>
+  <PersistentProfile:StandardAssociation xmi:id="_xR8FEsnvEeapc4-KGmx_Tw" base_Element="_xLthkcnvEeapc4-KGmx_Tw" persistenrelationshiptransformation="Foreign Key"/>
+  <PersistentProfile:Entity xmi:id="_xR8FE8nvEeapc4-KGmx_Tw" base_Element="_xLthksnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR8sIMnvEeapc4-KGmx_Tw" base_Element="_xLthksnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR8sIcnvEeapc4-KGmx_Tw" base_Element="_xLthksnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Photo_description_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:Role xmi:id="_xR9TMMnvEeapc4-KGmx_Tw" base_Element="_xLthmsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR9TMcnvEeapc4-KGmx_Tw" base_Element="_xLthmsnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR9TMsnvEeapc4-KGmx_Tw" base_Element="_xLthmsnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Entity xmi:id="_xR96QMnvEeapc4-KGmx_Tw" base_Element="_xLthoMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR96QcnvEeapc4-KGmx_Tw" base_Element="_xLthoMnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR96QsnvEeapc4-KGmx_Tw" base_Element="_xLthoMnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Video_description_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:Role xmi:id="_xR-hUMnvEeapc4-KGmx_Tw" base_Element="_xLthqMnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR-hUcnvEeapc4-KGmx_Tw" base_Element="_xLthqMnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR-hUsnvEeapc4-KGmx_Tw" base_Element="_xLthqMnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+  <PersistentProfile:Entity xmi:id="_xR_IYMnvEeapc4-KGmx_Tw" base_Element="_xLthrsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR_IYcnvEeapc4-KGmx_Tw" base_Element="_xLthrsnvEeapc4-KGmx_Tw" persistentpropertymode="General"/>
+  <PersistentProfile:StandardClass xmi:id="_xR_IYsnvEeapc4-KGmx_Tw" base_Element="_xLthrsnvEeapc4-KGmx_Tw" persistententityhasTechnicalKey="true" persistententitytechnicalKey="Link_description_ID" persistententitytechnicalKeyType="long"/>
+  <PersistentProfile:Role xmi:id="_xR_vcMnvEeapc4-KGmx_Tw" base_Element="_xLthtsnvEeapc4-KGmx_Tw"/>
+  <PersistentProfile:InfrastructureModelElement xmi:id="_xR_vccnvEeapc4-KGmx_Tw" base_Element="_xLthtsnvEeapc4-KGmx_Tw" persistentpropertymode="Role"/>
+  <PersistentProfile:StandardAssociationEnd xmi:id="_xR_vcsnvEeapc4-KGmx_Tw" base_Element="_xLthtsnvEeapc4-KGmx_Tw" persistenroletype="set [java.util.Set]" persistenrolehasforeignkey="false"/>
+</xmi:XMI>
